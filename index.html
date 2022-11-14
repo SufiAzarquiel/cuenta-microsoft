@@ -1,45 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Basic Page Needs
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta charset="utf-8">
-  <title>Your page title here :)</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
+        <!-- Page name -->
+        <title>Cuenta de Microsoft</title>
 
-  <!-- Mobile Specific Metas
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Page icon TODO -->
+        <link rel="icon" href="images/windows.svg" type="image/" />
 
-  <!-- FONT
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+        <!-- Font awesome -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
 
-  <!-- CSS
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/barebones.css">
-
-  <!-- Favicon
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="icon" type="image/png" href="images/favicon-16.png">
-
-</head>
-<body>
-
-  <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="grid-container halves">
-      <div>
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="https://acahir.github.io/Barebones/">Barebones documentation</a>.</p>
-      </div>
-    </div>
-  </div>
-
-<!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-</body>
+        <!-- Style -->
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header class="container py-20">
+            <div class="left">
+                <img
+                    src="images/logo.png"
+                    alt="Logo de microsoft"
+                    width="110"
+                />
+            </div>
+            <div class="right">
+                <i class="fa fa-search ml-20" aria-hidden="true"></i>
+                <i class="fa fa-user-circle fa-lg ml-20" aria-hidden="true"></i>
+            </div>
+            <div class="cb"></div>
+        </header>
+        <div id="welcome"></div>
+        <div id="features" class="bg-gris">
+            <div class="container py-50">
+                <div class="feature">
+                    <img src="images/new1.png" alt="" />
+                    <h1>¿Nuevo en Microsoft?</h1>
+                    <p>Introducción a productos de microsoft y mucho más.</p>
+                    <p>
+                        <a
+                            href="https://www.microsoft.com/es-es/welcome?rtc=1"
+                            target="_blank"
+                            >Obtener más información...
+                        </a>
+                    </p>
+                </div>
+                <div class="feature">
+                    <img src="images/new2.png" alt="" />
+                    <h1>Seguridad</h1>
+                    <p>
+                        Cambia una contraseña, actualiza la información de
+                        seguridad y mantén actualizados los datos esenciales de
+                        tu cuenta.
+                    </p>
+                </div>
+                <div class="feature">
+                    <img src="images/new3.png" alt="" />
+                    <h1>Privacidad</h1>
+                    <p>
+                        Revisa tu historial de búsqueda, la actividad de
+                        navegación y ubicación y mucho más.
+                    </p>
+                </div>
+                <div class="feature">
+                    <img src="images/new4.png" alt="" />
+                    <h1>Familia</h1>
+                    <p>
+                        Mantén a tu familia más segura online y mantente en
+                        contacto aunque estés lejos.
+                    </p>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </div>
+    </body>
 </html>
