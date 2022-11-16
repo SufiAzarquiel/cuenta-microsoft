@@ -1,4 +1,4 @@
-/* margins and paddings */
+/* Margins and paddings */
 .ml-20 {
     margin-left: 20px;
 }
@@ -6,19 +6,21 @@
     padding-top: 20px;
     padding-bottom: 20px;
 }
-.py-50 {
-    padding-top: 50px;
-    padding-bottom: 50px;
+.w-40 {
+    width: 40%;
 }
 
-/* Colors */
-.bg-gris {
-    background-color: #f2f2f2;
+.bg-blue {
+    background-color: #0067b8;
 }
 
 /* Elements */
 * {
     box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
 }
 
 body{
@@ -46,11 +48,49 @@ body{
     clear: both;
 }
 
+img[src="images/logo.png"] {
+    padding-right: 20px;
+    border-right: #000000 solid 2px;
+}
+
+header nav ul, header nav li {
+    padding: 0;
+    margin: 0;
+}
+
+header nav li{
+    list-style-type: none;
+    display: inline;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+header nav li a {
+    color: #2c2c2c;
+}
+
+header nav li a:hover {
+    text-decoration: underline;
+}
+
 #welcome {
     background-image: url(../images/fondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 550px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#welcome input {
+    border: none;
+    color: rgb(58, 58, 58);
+    padding: 20px 40px;
+}
+
+#features {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    background-color: #f2f2f2;
 }
 
 .feature {
@@ -59,14 +99,44 @@ body{
     float: left;
     text-align: center;
     border-right: solid 1px rgb(217, 217, 217);
-    font-size: 20px;
+    height: 320px;
 }
 
-.container .feature:nth-child(4) {
+.feature:nth-last-child(2) {
     /* No border for last feature */
-    border: none;
+    border-right: none;
 }
 
 .feature img {
     width: 60%;
+}
+
+footer {
+    background-color: #f2f2f2;
+    color: #666666;
+}
+
+footer nav ul, footer nav li {
+    padding: 0;
+    margin: 0;
+}
+
+footer nav li{
+    list-style-type: none;
+    display: inline;
+    font-size: smaller;
+    margin-left: 14px;
+}
+
+footer nav li a {
+    color: #666666;
+}
+
+footer nav li a:hover {
+    text-decoration: underline;
+}
+
+footer nav ul, footer nav li {
+    padding: 0;
+    margin: 0;
 }

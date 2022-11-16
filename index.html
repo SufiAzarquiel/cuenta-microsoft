@@ -23,11 +23,21 @@
     <body>
         <header class="container py-20">
             <div class="left">
-                <img
-                    src="images/logo.png"
-                    alt="Logo de microsoft"
-                    width="110"
-                />
+                <nav>
+                    <ul>
+                        <li>
+                            <img
+                                src="images/logo.png"
+                                alt="Logo de microsoft"
+                                width="135"
+                            />
+                        </li>
+                        <li>
+                            <a href="#"><strong>Cuenta</strong></a>
+                        </li>
+                        <li><a href="#">Ayuda</a></li>
+                    </ul>
+                </nav>
             </div>
             <div class="right">
                 <i class="fa fa-search ml-20" aria-hidden="true"></i>
@@ -35,9 +45,24 @@
             </div>
             <div class="cb"></div>
         </header>
-        <div id="welcome"></div>
-        <div id="features" class="bg-gris">
-            <div class="container py-50">
+        <div id="welcome">
+            <div class="container">
+                <div class="w-40">
+                    <h1>Le damos la bienvenida a su cuenta de Microsoft</h1>
+                    <p>
+                        Administre la información de la cuenta, las
+                        suscripciones y la configuración de privacidad y
+                        seguridad para sacar el máximo partido a Microsoft.
+                    </p>
+                    <p>
+                        <input type="button" value="Iniciar sesión" class="bg-blue">
+                        <input type="button" value="Crear cuenta" class="bg-none">
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="features">
+            <div class="container">
                 <div class="feature">
                     <img src="images/new1.png" alt="" />
                     <h1>¿Nuevo en Microsoft?</h1>
@@ -78,5 +103,25 @@
                 <div class="cb"></div>
             </div>
         </div>
+        <footer>
+            <div class="container py-20">
+                <div class="left">
+                    <i class="fa fa-globe" aria-hidden="true"></i>
+                </div>
+                <div class="right">
+                    <nav>
+                        <ul>
+                            <li><a href="#">Privacidad y cookies</a></li>
+                            <li><a href="#">Términos de uso</a></li>
+                            <li><a href="#">Contacto</a></li>
+                            <li><a href="#">Comentarios</a></li>
+                            <li><a href="#">Administrar cookies</a></li>
+                            <li>&copy; Microsoft 2022</li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="cb"></div>
+            </div>
+        </footer>
     </body>
 </html>
